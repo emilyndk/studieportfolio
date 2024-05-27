@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  align-self: stretch;
+}
+
+/* fontface */
+@font-face {
+  font-family: "silkflower";
+  src: url("/fonts/silkflower.woff") format("woff"), url("/font/silkflower.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "silkflower";
+  font-size: 40px;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+main {
+  margin-top: 3rem;
+}
+
+header {
+  margin-top: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+}
+
+.beige {
+  background-color: #efece2;
+}
+
+.forside {
+  background-color: #fba847;
+}
+
+img {
+  border-radius: 20px;
+}
+
+h2 {
+  color: #dc95ff;
+  font-family: "Montserrat", sans-serif;
+
+  text-align: center;
+  font-size: 30px;
+}
+
+.orange {
+  color: #fba847;
+}

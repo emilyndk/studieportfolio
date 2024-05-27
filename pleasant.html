@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pleasant billede</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <header>
+        <p>webdesign portfolio</p>
+        <a class="forside" href="index.html">Forside</a>
+        <section class="navi">
+
+            <a class="hover" href="om.html">Om mig</a>
+            <a class="beige" href="praktik.html">Praktik</a>
+            <a class="hover" href="1sem.html">1. sem</a>
+            <a class="hover" href="2sem.html">2. sem</a>
+        </section>
+
+    </header>
+
+    <main>
+        <img src="img/pleasant.webp" alt="Shoppeside">
+    </main>
+
+    <footer>
+
+        <a class="forside" href="index.html">Forside</a>
+        <section class="navi">
+
+            <a class="beige" href="om.html">Om mig</a>
+            <a class="hover" href="praktik.html">Praktik</a>
+            <a class="hover" href="1sem.html">1. sem</a>
+            <a class="hover" href="2sem.html">2. sem</a>
+        </section>
+    </footer>
+</body>
+
+</html>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+
+
+    img {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    header p {
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+
+
+    .navi {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 1rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+        margin-top: 2rem;
+
+    }
+
+    a {
+        background-color: #DC95FF;
+        padding: 1rem;
+
+        border-radius: 20px;
+        text-align: center;
+    }
+
+    .hover:hover {
+        background-color: #efece2;
+    }
+
+
+    .forside {
+        margin-left: 500px;
+    }
+
+    .forside:hover {
+        background-color: #efece2;
+    }
+
+    footer {
+        margin-top: 3rem;
+    }
+
+
+    @media (min-width: 800px) {
+
+
+        .navi {
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            order: -1;
+        }
+
+        .forside {
+            margin-left: 550px;
+        }
+
+
+
+
+
+    }
+</style>
